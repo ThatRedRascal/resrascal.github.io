@@ -1,0 +1,120 @@
+.menu-bar{
+	display: inline;
+	/*background-color: rgb(23, 22, 22);*/
+	border-style: solid;
+	font-size:  1.5em;
+	/*padding-right: 0em;
+	padding-left: 4em;
+	padding-top: 1em;*/
+	font-family: Oswald;
+	height: 100%;
+}
+.menu-bar.: visited{
+	color: rgb(237, 186, 31);
+}
+.menu-bar button{
+	height: 60px;
+	width: 210px;
+	padding: 0px 10px 15px 10px;
+	font-family: Oswald;
+	background-color: rgb(0,0,0);
+	color: rgb(237, 186, 31);
+	border: 0;
+	font-size: 1.2em;
+}
+.menu-bar button:hover{
+	text-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+	cursor: pointer;
+}
+html{
+	background-image: url("background html.jpeg");
+	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	outline: 0;
+   	font-size: 100%;
+   	vertical-align: baseline;
+   	background: solid;
+}
+.menu-left{
+	background: rgb(0,0,0);
+	display: inline;
+	font-family: Oswald;
+	color: #fff;
+	font-size: 2em;
+	padding-right: 1em;
+}
+.header-placeholder{
+	height: 100%;
+	display: inline;
+	background-color: rgb(0,0,0);
+	padding: 200px;
+	width: 600%;
+}
+#list-menu{
+	padding-top: 2em;
+	width: 100%;
+	display: inline !important;
+	background-color: rgb(0,0,0);
+
+}
+.heading{
+	display: inline !important;
+	font-family: Oswald;
+	color: #fff;
+	font-size: 2.4em;
+	padding-right: 1em;
+	margin-right: 6em;
+}
+#slide-1{
+	width: 40vh;
+	align-self: center;
+	display: inline;
+	margin: 20vh -30vh;
+	align-items: right !important;
+}
+#slide-2{
+	width: 50vh;
+	display: inline;
+	margin: 20vh -30vh;
+}
+#head-1{
+	width: 40vh;
+	margin: 0;
+}
+#head-2{
+	width: 40vh;
+	margin: 0;
+}
+.full-slide{
+	display: flex;
+	width: 195vh;
+	height: 100vh;
+	justify-content: space-evenly;
+	align-content: center;
+}
+.full-slide span{
+	/*flex: 1;*/
+}
+head-1,head-2{
+	display: inline;
+}
+#slide-2 p{
+	font-size: 2.2em;
+}
+.clickbutton{
+	height: 50px;
+	width: 100px;
+	font-family: Oswald;
+	font-size: 1.3em;
+	color: black;
+	background-color: rgb(237, 186, 31);
+	border: 0;
+}
+.clickbutton:hover{
+	background-color: rgb(207,207,207);
+	cursor: pointer;
+}
+.credits{
+	color: white;
+}
